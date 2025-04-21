@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Sarthak Yeole - Portfolio",
   description:
-    "Personal portfolio of Sarthak Yeole - Competitive Programmer | Backend Developer | Web3 & Cloud Enthusiast",
-    generator: 'v0.dev'
+    "Personal portfolio of Sarthak Yeole"
 }
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} px-4 md:px-8`} style={{ padding: "2rem" }}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>

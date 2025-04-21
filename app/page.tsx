@@ -251,11 +251,11 @@ export default function Home() {
 
         {/* Skills Section */}
         <section id="skills" className="py-12 border-t">
-          <h2 className="text-3xl font-bold tracking-tighter mb-8">Skills</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h2 className="text-3xl font-bold tracking-tighter mb-10">Skills</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-35">
             <div>
               <h3 className="text-xl font-bold mb-4">Languages, Frameworks, and Databases</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-4"> 
                 <Badge>JavaScript</Badge>
                 <Badge>TypeScript</Badge>
                 <Badge>Python</Badge>
@@ -274,7 +274,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Operating Systems</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-4"> 
                 <Badge>Windows</Badge>
                 <Badge>Linux</Badge>
                 <Badge>Ubuntu</Badge>
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Tools & Software</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-4"> 
                 <Badge>Git</Badge>
                 <Badge>GitHub</Badge>
                 <Badge>VS Code</Badge>
@@ -385,7 +385,7 @@ export default function Home() {
                   <Badge variant="outline">Express.js</Badge>
                   <Badge variant="outline">Node.js</Badge>
                   <Badge variant="outline">SQL</Badge>
-                  <Badge variant="outline">JWT</Badge>
+                  <Badge variant="outline">JavaScript</Badge>
                   <Badge variant="outline">CSS</Badge>
                 </div>
               </CardContent>
