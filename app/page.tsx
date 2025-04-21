@@ -191,60 +191,58 @@ export default function Home() {
             <Card>
               <CardHeader>
                 <CardTitle>BSOC Contributor</CardTitle>
-                <CardDescription>2023 - Present</CardDescription>
+                <CardDescription>May 2024 - July 2024</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  Contributed to BitByte Summer of Code (BSoC), an open-source program organized by the Programming Club of IIIT Jabalpur.
+                  Worked on real-world projects and collaborated with developers to improve open-source software.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Business Hackathon Winner at IIT R</CardTitle>
-                <CardDescription>2023</CardDescription>
+                <CardTitle>Winner – InnoWave Business Hackathon, IIT Roorkee </CardTitle>
+                <CardDescription>March 2025</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  🏆 Winner of InnoWave, a business hackathon held during Cognizance, the annual tech fest of IIT Roorkee.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>CanYouHackIt Winner</CardTitle>
-                <CardDescription>2023 - Present</CardDescription>
+                <CardTitle>Winner – CanYouHackIt Hackathon, IIIT Jabalpur</CardTitle>
+                <CardDescription>September 2024</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  🏆 Secured first place in CanYouHackIt, a flagship hackathon organized by the Programming Club of IIIT Jabalpur.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Core Member of the Programming Club</CardTitle>
-                <CardDescription>2023 - Present</CardDescription>
+                <CardTitle>Core Member – Technical Programming Club (TPC), IIIT Jabalpur</CardTitle>
+                <CardDescription>July 2024 - Present</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  Actively contributed to organizing and mentoring events like coding contests, open-source programs, and hackathons.
+                  Played a key role in outreach, and fostering a coding culture on campus.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>MLH Hackathon - Hackbyte Organiser</CardTitle>
-                <CardDescription>2023 - Present</CardDescription>
+                <CardTitle>🚀 Organizer – HackByte 3.0 (MLH Member Hackathon), IIIT Jabalpur</CardTitle>
+                <CardDescription>April 2025</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  Led the planning and execution of HackByte 3.0, an MLH Member Hackathon hosted by IIIT Jabalpur.
+                  Managed end-to-end logistics, sponsors partnerships, and community engagement for a large-scale national tech event.
                 </p>
               </CardContent>
             </Card>
@@ -263,6 +261,7 @@ export default function Home() {
                 <Badge>Python</Badge>
                 <Badge>Java</Badge>
                 <Badge>C++</Badge>
+                <Badge>C</Badge>
                 <Badge>Node.js</Badge>
                 <Badge>Express</Badge>
                 <Badge>React</Badge>
@@ -270,6 +269,7 @@ export default function Home() {
                 <Badge>MongoDB</Badge>
                 <Badge>PostgreSQL</Badge>
                 <Badge>MySQL</Badge>
+                <Badge>GO</Badge>
               </div>
             </div>
             <div>
@@ -278,7 +278,6 @@ export default function Home() {
                 <Badge>Windows</Badge>
                 <Badge>Linux</Badge>
                 <Badge>Ubuntu</Badge>
-                <Badge>macOS</Badge>
               </div>
             </div>
             <div>
@@ -286,12 +285,10 @@ export default function Home() {
               <div className="flex flex-wrap gap-2">
                 <Badge>Git</Badge>
                 <Badge>GitHub</Badge>
-                <Badge>Docker</Badge>
-                <Badge>AWS</Badge>
-                <Badge>Azure</Badge>
                 <Badge>VS Code</Badge>
                 <Badge>Postman</Badge>
                 <Badge>Figma</Badge>
+                <Badge>Firebase</Badge>
               </div>
             </div>
           </div>
