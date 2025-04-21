@@ -301,8 +301,8 @@ export default function Home() {
             <Card>
               <CardHeader>
                 <div className="flex justify-between items-center">
-                  <CardTitle>Project One</CardTitle>
-                  <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <CardTitle>Contributor – IIITDM Jabalpur Alumni Portal</CardTitle>
+                  <Link href="https://github.com/sarthakyeole/alumni" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                   </Link>
                 </div>
@@ -310,10 +310,35 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  A description of your first project. Explain what technologies you used and what problems you solved.
+                  Contributed to the development of the official Alumni Portal for IIITDM Jabalpur under the Programming Club.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="outline">HTML</Badge>
+                  <Badge variant="outline">CSS</Badge>
+                  <Badge variant="outline">JavaScript</Badge>
+                  <Badge variant="outline">Python</Badge>
+                  <Badge variant="outline">Django</Badge>
+                  <Badge variant="outline">PostgreSQL</Badge>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex justify-between items-center">
+                  <CardTitle>Gamiky - Gaming Forum Platform</CardTitle>
+                  <Link href="https://github.com/sarthakyeole/Gamiky" target="_blank" rel="noopener noreferrer">
+                    <Github className="h-5 w-5" />
+                  </Link>
+                </div>
+                <CardDescription>Web Application</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  Developed a gaming forum using MERN stack featuring user authentication and dynamic content integration. Collaborated with contributors to enhance backend settings and frontend UI.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                   <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Express.js</Badge>
                   <Badge variant="outline">Node.js</Badge>
                   <Badge variant="outline">MongoDB</Badge>
                 </div>
@@ -322,63 +347,46 @@ export default function Home() {
             <Card>
               <CardHeader>
                 <div className="flex justify-between items-center">
-                  <CardTitle>Project Two</CardTitle>
-                  <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <CardTitle>CloudFileStorage - Secure File Storage Solution</CardTitle>
+                  <Link href="https://github.com/sarthakyeole/CloudFileStorage" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                   </Link>
                 </div>
-                <CardDescription>Mobile Application</CardDescription>
+                <CardDescription>Web Application</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  A description of your second project. Explain what technologies you used and what problems you solved.
+                  Built a chat-based file storage system using Firebase and Next.js, enabling users to securely upload and download files with real-time updates. Designed a responsive interface with optimized performance using modern web technologies.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="outline">React Native</Badge>
+                  <Badge variant="outline">Node.js</Badge>
+                  <Badge variant="outline">JavaScript</Badge>
                   <Badge variant="outline">Firebase</Badge>
-                  <Badge variant="outline">Redux</Badge>
+                  <Badge variant="outline">CSS</Badge>
                 </div>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
                 <div className="flex justify-between items-center">
-                  <CardTitle>Project Three</CardTitle>
-                  <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <CardTitle>Movie Explorer - Interactive Film Discovery App</CardTitle>
+                  <Link href="https://github.com/sarthakyeole/Movie-Explorer" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                   </Link>
                 </div>
-                <CardDescription>Backend API</CardDescription>
+                <CardDescription>Web Application</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  A description of your third project. Explain what technologies you used and what problems you solved.
+                  Developed a full-stack movie browsing platform with React and Express.js, featuring user authentication, favorites management, and responsive UI design. Implemented JWT-based security and state management using Context API.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="outline">Express</Badge>
-                  <Badge variant="outline">PostgreSQL</Badge>
-                  <Badge variant="outline">Docker</Badge>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <div className="flex justify-between items-center">
-                  <CardTitle>Project Four</CardTitle>
-                  <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <Github className="h-5 w-5" />
-                  </Link>
-                </div>
-                <CardDescription>Web3 Application</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  A description of your fourth project. Explain what technologies you used and what problems you solved.
-                </p>
-                <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="outline">Solidity</Badge>
-                  <Badge variant="outline">Ethers.js</Badge>
-                  <Badge variant="outline">Next.js</Badge>
+                  <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Express.js</Badge>
+                  <Badge variant="outline">Node.js</Badge>
+                  <Badge variant="outline">SQL</Badge>
+                  <Badge variant="outline">JWT</Badge>
+                  <Badge variant="outline">CSS</Badge>
                 </div>
               </CardContent>
             </Card>
