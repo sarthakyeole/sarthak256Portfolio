@@ -42,7 +42,7 @@ export default function Home() {
         <section className="py-12 md:py-24 lg:py-32 flex flex-col items-center text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Sarthak Yeole</h1>
           <p className="mt-4 text-xl text-muted-foreground max-w-[700px]">
-            Competitive Programmer | Backend Developer | Web3 & Cloud Enthusiast
+            Competitive Programmer | Developer | Web3 & Cloud Enthusiast
           </p>
           <p className="mt-6 text-lg text-muted-foreground max-w-[600px]">
             A passionate Computer Science sophomore at IIITDM Jabalpur, dedicated to solving complex problems and
@@ -62,11 +62,11 @@ export default function Home() {
         <section className="py-12 border-t">
           <h2 className="text-3xl font-bold tracking-tighter mb-8">Competitive Programming Profiles</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link href="https://codeforces.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://codeforces.com/profile/SDY_25" target="_blank" rel="noopener noreferrer">
               <Card className="h-full transition-all hover:shadow-md">
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-xl font-bold">Codeforces</CardTitle>
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -79,18 +79,23 @@ export default function Home() {
                     className="text-primary"
                   >
                     <path d="M5 8a4 4 0 1 0 8 0 4 4 0 1 0-8 0M12 8a4 4 0 1 0 8 0 4 4 0 1 0-8 0M5 16a4 4 0 1 0 8 0 4 4 0 1 0-8 0" />
-                  </svg>
+                  </svg> */}
+                  <img
+                    src="/codeforces.png"
+                    alt="Codeforces Logo"
+                    className="w-6 h-6"
+                  />
                 </CardHeader>
                 <CardContent>
                   <CardDescription>View my Codeforces profile and submissions</CardDescription>
                 </CardContent>
               </Card>
             </Link>
-            <Link href="https://www.codechef.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.codechef.com/users/yeolesarthak" target="_blank" rel="noopener noreferrer">
               <Card className="h-full transition-all hover:shadow-md">
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-xl font-bold">CodeChef</CardTitle>
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -108,18 +113,23 @@ export default function Home() {
                     <path d="M17.7 13.4a6 6 0 0 0-1.7-4.4" />
                     <path d="M8 13.5a6 6 0 0 1-1.7-4.5" />
                     <path d="M12 4a2 2 0 0 1 2 2c0 2.25-2 4.5-2 4.5s-2-2.25-2-4.5a2 2 0 0 1 2-2z" />
-                  </svg>
+                  </svg> */}
+                  <img
+                    src="/codechef.png"
+                    alt="codechef Logo"
+                    className="w-6 h-6"
+                  />
                 </CardHeader>
                 <CardContent>
                   <CardDescription>View my CodeChef profile and submissions</CardDescription>
                 </CardContent>
               </Card>
             </Link>
-            <Link href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://leetcode.com/u/yeoleSarthak/" target="_blank" rel="noopener noreferrer">
               <Card className="h-full transition-all hover:shadow-md">
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-xl font-bold">LeetCode</CardTitle>
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -132,7 +142,12 @@ export default function Home() {
                     className="text-primary"
                   >
                     <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-                  </svg>
+                  </svg> */}
+                  <img
+                    src="/leetcode.png"
+                    alt="Leetcode Logo"
+                    className="w-6 h-6"
+                    />
                 </CardHeader>
                 <CardContent>
                   <CardDescription>View my LeetCode profile and submissions</CardDescription>
@@ -157,8 +172,15 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-64 rounded-full bg-muted flex items-center justify-center text-4xl">SY</div>
+            <div className="w-64 h-64 rounded-full overflow-hidden bg-muted flex items-center justify-center">
+              <img
+                src="/SarthakPic.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
+          </div>
+
           </div>
         </section>
 
@@ -182,6 +204,42 @@ export default function Home() {
               <CardHeader>
                 <CardTitle>Business Hackathon Winner at IIT R</CardTitle>
                 <CardDescription>2023</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>CanYouHackIt Winner</CardTitle>
+                <CardDescription>2023 - Present</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Core Member of the Programming Club</CardTitle>
+                <CardDescription>2023 - Present</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  [Description to be added] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>MLH Hackathon - Hackbyte Organiser</CardTitle>
+                <CardDescription>2023 - Present</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
@@ -337,22 +395,22 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>+91 1234567890</span>
+                <span>+91 9309079661</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>sarthak.yeole@example.com</span>
+                <span>sarthakyeole025@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Twitter className="h-5 w-5 text-primary" />
-                <Link href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                <Link href="https://twitter.com/sarthak_4744" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   @sarthak_yeole
                 </Link>
               </div>
               <div className="flex items-center gap-3">
                 <Linkedin className="h-5 w-5 text-primary" />
                 <Link
-                  href="https://linkedin.com/in/"
+                  href="https://www.linkedin.com/in/sarthak-yeole-399a93297/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline"
@@ -362,7 +420,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-3">
                 <Github className="h-5 w-5 text-primary" />
-                <Link href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                <Link href="https://github.com/sarthakyeole" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   github.com/sarthak-yeole
                 </Link>
               </div>
@@ -433,13 +491,13 @@ export default function Home() {
             Built by Sarthak Yeole | Hosted on Vercel
           </p>
           <div className="flex items-center gap-4">
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/sarthakyeole" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" />
             </Link>
-            <Link href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/sarthak-yeole-399a93297/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" />
             </Link>
-            <Link href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://twitter.com/sarthak_4744" target="_blank" rel="noopener noreferrer">
               <Twitter className="h-5 w-5" />
             </Link>
           </div>
